@@ -1,11 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React 101 - Workshop template
 
-## Available Scripts
+## Quick Start
+O nosso projeto necessita de uma api para buscar os tweets a serem renderizados, para isso utilizamos o json-server. Para isso precisamos instala-lo globalmente e depois rodar o serviço.
 
-In the project directory, you can run:
+### Instalando o json-server
+`npm install -g json-server`
 
-### `npm install -g json-server`
+### Rodando o json-server
+`json-server --watch db.json --port 3001`
 
-### `json-server --watch db.json --port 3001`
+### Iniciando a aplicação
+`npm run start`
 
-### `yarn start`
+
+## Slides
+[Slides para construit a aplicação passo a passo](http://bit.ly/2Owo3at)
